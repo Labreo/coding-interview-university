@@ -27,6 +27,7 @@
   - [namespaces](https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm)
   - [OOP](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
   - [STL](https://www.hackerearth.com/practice/notes/standard-template-library/)
+  - [C++ and STL Tutorial Series (playlist)](https://www.youtube.com/playlist?list=PLauivoElc3gh3RCiQA82MDI-gJfXQQVnn)
   - [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
   - [C++ at Google (video)](https://www.youtube.com/watch?v=NOCElcMcFik)
   - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)

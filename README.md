@@ -91,6 +91,7 @@ For a complete CS self-taught program, the resources for my study plan have been
 - [The Daily Plan](#the-daily-plan)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding Problems](#coding-problems)
+    - [Competitive Programming & Rating-Based Roadmap](#competitive-programming--rating-based-roadmap)
 
 ### Topics of Study
 
@@ -563,6 +564,84 @@ Challenge/Practice sites:
 - [Project Euler](https://projecteuler.net/)
     - very math-focused, and not really suited for coding interviews
 
+### Competitive Programming & Rating-Based Roadmap
+
+A structured, rating-based roadmap for competitive programming and interview problem-solving practice (centered on Codeforces and CSES):
+
+#### Core Strategy & Practice Philosophy
+- **Rating-wise vs. Topic-wise Practice**:
+    - On **LeetCode**: Practice topic-wise after learning a new data structure or algorithm.
+    - On **Codeforces**: Practice rating-wise rather than topic-wise. Solving mixed, rating-appropriate problems builds intuition for identifying which technique to apply.
+- **Avoid Outdated Ladders**: Avoid solving static problem ladders where many questions are old. Instead, go directly to the [Codeforces Problemset](https://codeforces.com/problemset) and filter problems by rating.
+- **Active Problem Solving**: Watch fewer tutorial videos and prioritize solving problems independently.
+- **Contest Strategy**:
+    - Participate in every Codeforces contest live.
+    - Upsolve at least 1 problem you couldn't solve during the contest.
+    - Aim to solve problems A, B, and C quickly with zero Wrong Answer (WA) penalties.
+
+---
+
+#### Step 1: Foundations & Initial Rating Climb (800 – 1200 Rating)
+- **Language & STL**:
+    - Learn C++ and the Standard Template Library (STL).
+    - [C++ & STL Tutorial Series (playlist)](https://www.youtube.com/playlist?list=PLauivoElc3gh3RCiQA82MDI-gJfXQQVnn)
+- **Practice Without Advanced Algorithms**:
+    - Do **not** learn complex data structures or advanced algorithms yet.
+    - Solve problems directly on the Codeforces Problemset according to rating:
+        - Start at **800** rating.
+        - Solve **20–60 questions** at each rating tier before moving up.
+        - Gradually increase the rating and solve problems all the way up to **1200 rating** without topic-specific learning.
+
+---
+
+#### Step 2: Intermediate Topics (1200 – 1400 Rating)
+You can reach up to a **1400 rating** by mastering the following fundamental topics:
+- **Sliding Window**:
+    - [Sliding Window (playlist)](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
+- **Number Theory**:
+    - [Number Theory & Math for CP (playlist)](https://www.youtube.com/playlist?list=PLauivoElc3giVROwL-6g9hO-LlSen_NaV)
+- **Binary Search**:
+    - [Binary Search (playlist)](https://www.youtube.com/playlist?list=PLF6ChxadzFf8vjafLIxxbKUfarW4V4IOh)
+- **Bit Manipulation**:
+    - [Bit Manipulation Live Stream - Part 1 (video)](https://www.youtube.com/live/5rtVTYAk9KQ)
+    - [Bit Manipulation Live Stream - Part 2 (video)](https://www.youtube.com/live/ZwU6wSkepBI)
+    - [Basics of Bit Manipulation Tutorial - HackerEarth](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
+
+---
+
+#### Step 3: Core Algorithmic Techniques (1400 – 1600 Rating)
+After reaching 1400, study these core topics:
+- **Recursion**:
+    - [Recursion (playlist)](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY)
+- **Dynamic Programming (DP)**:
+    - [Dynamic Programming (playlist)](https://www.youtube.com/playlist?list=PLqf9emQRQrnKA_EeveiXQj_uP25w8_5qL)
+    - [DP Practice Problem Sheet](https://docs.google.com/document/d/1eYZZFKfCTE5kJcmGIYybHaDdpqWgYwRZlwwUOmHz4Kg/edit)
+- **Graphs**:
+    - [Graph Series (playlist)](https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw)
+- **Trees**:
+    - [Binary Trees & Tree Data Structures (video)](https://www.youtube.com/watch?v=HL5ouhfxlgk)
+- **Disjoint Set Union (DSU)**:
+    - [Disjoint Set Union - DSU (playlist)](https://www.youtube.com/playlist?list=PLqf9emQRQrnIQ3DkkyBNGe1s4l3HqMqrz)
+
+---
+
+#### Step 4: Advanced Topics (1600+ Rating)
+Once you pass 1600, move on to advanced competitive programming techniques:
+- **Segment Tree**:
+    - [Segment Tree Tutorial (video)](https://www.youtube.com/watch?v=-dUiRtJ8ot0)
+- **Bitmask DP**:
+    - [Bitmask Dynamic Programming (playlist)](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1icFNrtZqByO1CrWVHLlO5g)
+- **Digit DP**:
+    - [Digit Dynamic Programming (playlist)](https://www.youtube.com/playlist?list=PLb3g_Z8nEv1hB69JL9K7KfEyK8iQNj9nX)
+- **Binary Lifting**:
+    - [Binary Lifting & LCA Tutorial (video)](https://www.youtube.com/watch?v=WXMnRa3NkTQ)
+- **CSES Problem Set Practice**:
+    - Solve Tree and Graph problems from the [CSES Problem Set](https://cses.fi/problemset/).
+    - [CSES Problem Solutions Repository (by Shivam Bhadani)](https://github.com/shivam-bhadani/Competitive-Programming/tree/master/CSES)
+- **Ad-Hoc and Constructive Algorithms**:
+    - Codeforces features many ad-hoc and constructive algorithm problems.
+    - There is no single formula or shortcut for these; continuous deliberate practice is the only way to build intuition.
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Let's Get Started
@@ -728,6 +807,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
     - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
     - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
+    - [ ] [Binary Search (playlist)](https://www.youtube.com/playlist?list=PLF6ChxadzFf8vjafLIxxbKUfarW4V4IOh)
     - [ ] Implement:
         - binary search (on a sorted array of integers)
         - binary search using recursion
@@ -746,6 +826,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
         - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+        - [ ] [Bit Manipulation Live Stream - Part 1 (video)](https://www.youtube.com/live/5rtVTYAk9KQ)
+        - [ ] [Bit Manipulation Live Stream - Part 2 (video)](https://www.youtube.com/live/ZwU6wSkepBI)
+        - [ ] [Basics of Bit Manipulation Tutorial - HackerEarth](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
 		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
     - [ ] 2s and 1s complement
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
@@ -1023,6 +1106,8 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] List of individual DP problems (each is short):
             [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+        - [ ] [Dynamic Programming (playlist)](https://www.youtube.com/playlist?list=PLqf9emQRQrnKA_EeveiXQj_uP25w8_5qL)
+        - [ ] [Dynamic Programming Practice Problems Sheet](https://docs.google.com/document/d/1eYZZFKfCTE5kJcmGIYybHaDdpqWgYwRZlwwUOmHz4Kg/edit)
     - [ ] Yale Lecture notes:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
@@ -1248,6 +1333,13 @@ Graphs can be used to represent many problems in computer science, so this secti
     - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
 - ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
     - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
+
+**[⬆ back to top](#table-of-contents)**
+
+## Find a Job
+
+- [Interndoor](https://interndoor.com)
+    - Platform to find internships and fresher job opportunities.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1800,6 +1892,7 @@ You're never really done.
 - ### Disjoint Sets & Union Find
     - [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
     - [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
+    - [Disjoint Set Union - DSU (playlist)](https://www.youtube.com/playlist?list=PLqf9emQRQrnIQ3DkkyBNGe1s4l3HqMqrz)
 
 - ### Math for Fast Processing
     - [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
